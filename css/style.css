@@ -1,0 +1,29 @@
+
+body{
+    max-width: 550px;
+    margin: 0 auto;
+    background-color: beige;
+    text-align: center;
+    color: rgb(90, 66, 25);
+}
+
+.slide{
+    background-color: rgb(238, 233, 217);
+    padding-top: 10em ;
+    height: 100vh;
+}
+p{
+    margin: 0;
+}
+
+/* ---------------------- CUANDO ES MOVIL ---------------------- */
+
+@media (min-height<= 680px) {
+    body{
+        background-color: beige;
+        text-align: center;
+        /* margin-top: 10%;
+        margin-bottom: 10%;
+        padding:10%; */
+    }
+}
