@@ -1,34 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+:root {
+    --main-bg-color: #ebf2ee;
+    --main-bg-color-slide: #E0E9E4;
+    --text-color-general:#315250;
+  }
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
 
 body{
+    
     max-width: 550px;
     margin: 0 auto;
-    background-color: beige;
+    font-family: 'Helvetica';
+    background-color: var(--main-bg-color);
     text-align: center;
-    color: #5a4219;
+    color: var(--text-color-general);
+    
 }
 
 .slide{
-    background-color: rgb(238, 233, 217);
+    background-color: var(--main-bg-color-slide);
+    /* background-image: url("../img/bg-mb.png"); */
     
     height: 100vh;
-    border-top: solid 1px;
+    /* border-top: solid 1px; */
+}
+.slide h2{
+    /* font-family: 'Lobster', cursive; */
+    font-family: 'Arial black', sans-serif;
+    /* font-weight:bold; */
 }
 .bodySlide{
-    padding-top: 10em ;
+    padding-top: 2em ;
+}
+.bodySlide h6{
+    padding: 0.5em;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.5em;
 }
 .slide a{
     text-decoration: none;
-    color: #5a4219;
+    color: var(--text-color-general);
 }
 p{
     margin: 0;
+    line-height: 1.8rem;
 }
 
 /* ---------------------- CUANDO ES MOVIL ---------------------- */
 
 @media (min-height<= 680px) {
     body{
-        background-color: beige;
+        background-color: var(--main-bg-color);
         text-align: center;
         /* margin-top: 10%;
         margin-bottom: 10%;
