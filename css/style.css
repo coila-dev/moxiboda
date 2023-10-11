@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 :root {
     --main-bg-color: #ebf2ee;
     --main-bg-color-slide: #E0E9E4;
@@ -22,7 +22,9 @@
 body{
     max-width: 550px;
     margin: 0 auto;
-    font-family: 'Helvetica';
+    /* font-family: 'Helvetica'; */
+    font-family: 'Libre Baskerville', serif;
+    /* font-size:16px; */
     background-color: var(--main-bg-color);
     text-align: center;
     color: var(--text-color-general);
@@ -50,21 +52,21 @@ body{
     padding: 0 0 1.5em 0;
 }
 .slide h2{
-    font-family: 'Arial black', sans-serif;
-    padding-top: 1em;
-    padding-bottom: 1em;
+    /* font-family: 'Arial black', sans-serif; */
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 .bodySlide{
-    padding-top: 2em ;
+    /* padding-top: 2em ; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(4,0.5fr);
+    grid-template-rows: repeat(2,0.5fr);
 }
 .bodySlide h6{
     padding: 0.5em;
     /* font-family: 'Dancing Script', cursive; */
     font-family: 'Great Vibes', cursive;
-    font-size: 2.5em;
+    font-size: 3rem;
 }
 .slide a{
     text-decoration: none;
@@ -85,6 +87,10 @@ p{
 .slide__img-principal{
     align-items: center;
     padding: 1rem 0;
+}
+
+.img-hoja{
+    padding: 2rem 0;
 }
 /* ---------------------- CUANDO ES MOVIL ---------------------- */
 
