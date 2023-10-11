@@ -17,6 +17,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    /* font-size:18px; */
   }
 
 body{
@@ -24,7 +25,7 @@ body{
     margin: 0 auto;
     /* font-family: 'Helvetica'; */
     font-family: 'Libre Baskerville', serif;
-    /* font-size:16px; */
+    
     background-color: var(--main-bg-color);
     text-align: center;
     color: var(--text-color-general);
@@ -78,7 +79,9 @@ p{
 }
 
 .container{
-    padding-bottom: 2rem;
+    padding: 0;
+    /* padding-bottom: 2rem; */
+
     background-image: url('../img/bg-general.png');
     background-size: 100%;
     background-color: var(--main-bg-color-white);   
@@ -88,9 +91,36 @@ p{
     align-items: center;
     padding: 1rem 0;
 }
+.slide__img-principal img{
+    width: 60%;
+}
 
-.img-hoja{
+.img-separador{
     padding: 2rem 0;
+    width: 100%;
+}
+.img-separador img{
+    width: 55%;
+}
+
+.text-regalos{
+    padding: 0 4rem;
+}
+.icon-regalos{
+    width: 60px;
+}
+.icon-clic-medium{
+    width: 20px;
+}
+.icon-whatsapp{
+    width: 40px;
+}
+.icon-clic-whatsapp{
+    width: 10px;
+}
+.img-fin{
+    transform: rotate(180deg);
+    padding: 0;
 }
 /* ---------------------- CUANDO ES MOVIL ---------------------- */
 
