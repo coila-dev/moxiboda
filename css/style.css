@@ -112,6 +112,39 @@ p{
 .icon-clic-medium{
     width: 20px;
 }
+
+@-webkit-keyframes efectClic { 
+    0% { opacity: 0; }
+    10% { opacity: 0.3; }
+    20% { opacity: 0.5; }
+    30% { opacity: 0.9; }
+    40% { opacity: 1; }
+    50% { opacity: 0.9; }
+    60% { opacity: 0.5; }
+    80% { opacity: 0.3; }
+    100% { opacity: 0; }
+  }
+@keyframes efectClic {
+    0% { opacity: 0; }
+    10% { opacity: 0.3; }
+    20% { opacity: 0.5; }
+    30% { opacity: 0.9; }
+    40% { opacity: 1; }
+    50% { opacity: 0.9; }
+    60% { opacity: 0.5; }
+    80% { opacity: 0.3; }
+    100% { opacity: 0; }
+  }
+
+/* .animation-clic{ */
+.icon-clic-whatsapp, .icon-clic-medium{
+    -webkit-animation-name: efectClic;
+    -webkit-animation-duration: 2s;
+    animation-name: efectClic;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
 .icon-whatsapp{
     width: 40px;
 }
@@ -122,6 +155,7 @@ p{
     transform: rotate(180deg);
     padding: 0;
 }
+
 /* ---------------------- CUANDO ES MOVIL ---------------------- */
 
 @media (min-height<= 680px) {
