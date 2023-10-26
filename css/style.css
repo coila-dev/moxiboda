@@ -4,6 +4,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Special+Elite&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+
 :root {
     --main-bg-color: #ebf2ee;
     --main-bg-color-slide: #E0E9E4;
@@ -24,8 +28,9 @@ body{
     max-width: 550px;
     margin: 0 auto;
     /* font-family: 'Helvetica'; */
-    font-family: 'Libre Baskerville', serif;
-    
+    /* font-family: 'Libre Baskerville', serif; */
+    font-family: 'Courier Prime';
+    font-size: 18px;
     background-color: var(--main-bg-color);
     text-align: center;
     color: var(--text-color-general);
